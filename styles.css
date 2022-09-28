@@ -31,22 +31,27 @@ body {
 }
 
 /* ----------------------------- */
-.title {
-  padding: 10px 0 50px 30px;
-  color: #0F3460;
+.start{
+  padding: 30px 0px 30px 30px;
+}
+/* .title {
+  padding: 30px 50px 10px 30px;
+  float: left;
+  width: 70%;
 }
 
 .address {
-  margin-left: 30px;
-  width: 50%;
+  text-align: left;
+  padding: 90px 10px 10px ;
+  float: left;
 }
 
 .phone {
-  padding: 10px 0 90px;
-  display: flex;
-  margin-left: 30px;
-  width: 50%;
-}
+  text-align: left;
+  float: left;
+  padding: 130px 0 90px;
+  width: 40%;
+} */
 
 .workorder {
   text-align: right;
@@ -127,7 +132,7 @@ body {
   padding: 20px;
 }
 
-.input-group {
+.end {
   width: 30%;
   margin-left: auto;
   margin-right: 10px;
