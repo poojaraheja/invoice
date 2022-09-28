@@ -1,6 +1,5 @@
 body {
   margin-top: 20px;
-
 }
 
 .company {
@@ -16,7 +15,6 @@ body {
 
 .my-invoice {
   padding: 0;
-
 }
 
 .invoice {
@@ -31,21 +29,25 @@ body {
   margin-bottom: 20px;
   border-bottom: 1px solid #0d6efd;
 }
+
 /* ----------------------------- */
-.title{
+.title {
   padding: 10px 0 50px 30px;
   color: #0F3460;
 }
-.address{
+
+.address {
   margin-left: 30px;
   width: 50%;
 }
-.phone{
+
+.phone {
   padding: 10px 0 90px;
   display: flex;
   margin-left: 30px;
   width: 50%;
 }
+
 /* ----------------------------- */
 .invoice .company-details {
   text-align: right
@@ -68,16 +70,18 @@ body {
   margin-top: 0;
   margin-bottom: 0
 }
+
 /* ------------------------------------------------ */
 .workorder-details {
   text-align: right;
   padding: 30px 40px 10px;
-
 }
-.workorder{
+
+.workorder {
   color: #87A2FB;
   padding-bottom: 20px;
 }
+
 /* ------------------------------------------ */
 .invoice .invoice-details .invoice-id {
   margin-top: 0;
@@ -154,20 +158,23 @@ body {
   padding: 20px;
 }
 
-.com_date {
-  width: 20%;
+.input-group {
+  width: 25%;
   margin-left: auto;
   margin-right: 10px;
-  padding: 10px;
 
 }
-.today {
-  width: 20%;
-  margin-left: auto;
-  margin-right: 8px;
+.dates {
   padding: 10px;
 }
+.input-group-text {
+  width: 40%;
+  text-align: center;
+}
 
+.inputGroup {
+  text-align: center;
+}
 
 .center {
   padding-bottom: 50px;
