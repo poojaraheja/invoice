@@ -56,9 +56,14 @@ body {
 .work1{
   margin-left: auto;
   margin-right: 10px;
-
   width: 50%;
 }
+.request{
+  margin-left: auto;
+  margin-right: 10px;
+  width: 25%;
+}
+
 
 .invoice .invoice-details .invoice-id {
   margin-top: 0;
