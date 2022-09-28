@@ -78,6 +78,16 @@ body {
   color: #87A2FB;
   padding-bottom: 20px;
 }
+
+.date{
+  float: right;
+  display: flex;
+
+}
+.datedetail{
+  width: 65%;
+}
+
 /* ------------------------------------------ */
 .invoice .invoice-details .invoice-id {
   margin-top: 0;
