@@ -48,53 +48,13 @@ body {
   width: 50%;
 }
 
-/* ----------------------------- */
-.invoice .company-details {
-  text-align: right
-}
-
-.invoice .company-details .name {
-  margin-top: 0;
-  margin-bottom: 0
-}
-
-.invoice .contacts {
-  margin-bottom: 20px
-}
-
-.invoice .invoice-to {
-  text-align: left
-}
-
-.invoice .invoice-to .to {
-  margin-top: 0;
-  margin-bottom: 0
-}
-
-/* ------------------------------------------------ */
-.workorder-details {
-  text-align: right;
-  padding: 30px 40px 10px;
-}
-
 .workorder {
-  color: #87A2FB;
-  padding-bottom: 20px;
+  text-align: right;
+  color: #0d6efd;
 }
-
-.date{
-  float: right;
-  display: flex;
-
-}
-.datedetail{
-  width: 65%;
-}
-
-/* ------------------------------------------ */
 .invoice .invoice-details .invoice-id {
   margin-top: 0;
-  color: #0d6efd
+  color: #0d6efd;
 }
 
 .invoice main {
@@ -168,7 +128,7 @@ body {
 }
 
 .input-group {
-  width: 25%;
+  width: 30%;
   margin-left: auto;
   margin-right: 10px;
 
@@ -176,6 +136,7 @@ body {
 .dates {
   padding: 10px;
 }
+
 .input-group-text {
   width: 40%;
   text-align: center;
