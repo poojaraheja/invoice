@@ -1,5 +1,6 @@
 body {
   margin-top: 20px;
+
 }
 
 .company {
@@ -15,6 +16,7 @@ body {
 
 .my-invoice {
   padding: 0;
+
 }
 
 .invoice {
@@ -29,7 +31,22 @@ body {
   margin-bottom: 20px;
   border-bottom: 1px solid #0d6efd;
 }
-
+/* ----------------------------- */
+.title{
+  padding: 10px 0 50px 30px;
+  color: #0F3460;
+}
+.address{
+  margin-left: 30px;
+  width: 50%;
+}
+.phone{
+  padding: 10px 0 90px;
+  display: flex;
+  margin-left: 30px;
+  width: 50%;
+}
+/* ----------------------------- */
 .invoice .company-details {
   text-align: right
 }
@@ -51,11 +68,17 @@ body {
   margin-top: 0;
   margin-bottom: 0
 }
+/* ------------------------------------------------ */
+.workorder-details {
+  text-align: right;
+  padding: 30px 40px 10px;
 
-.invoice .invoice-details {
-  text-align: right
 }
-
+.workorder{
+  color: #87A2FB;
+  padding-bottom: 20px;
+}
+/* ------------------------------------------ */
 .invoice .invoice-details .invoice-id {
   margin-top: 0;
   color: #0d6efd
