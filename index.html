@@ -108,20 +108,20 @@
                     <thead>
                       <tr>
                         <th scope="col">S.No</th>
-                        <th scope="col">Date</th>
+                        <th scope="col">QTY</th>
                         <th scope="col">Description</th>
-                        <th scope="col">Amount($)</th>
-                        <th scope="col">Taxes</th>
+                        <th scope="col">Taxed</th>
+                        <th scope="col">Unit Price</th>
                         <th scope="col">Total</th>
                       </tr>
                     </thead>
                     <tbody id="tbl">
                       <tr>
                         <th>1.</th>
-                        <td><input type="date" name="date" class="form-control" placeholder="Date" autofocus></td>
+                        <td><input type="number" name="number" class="form-control" placeholder="Quantity" autofocus></td>
                         <td><input type="Description" name="Description" class="form-control" placeholder="Enter Description"></td>
                         <td><input id="Amount1" type="number" name="Amount" class="form-control" placeholder="Enter Amount" oninput="add_number()"></td>
-                        <td><input id="Tax1" type="number" name="Taxes" class="form-control" placeholder="Enter Tax" oninput="add_number()"></td>
+                        <td><input id="Tax1" type="number" name="Taxes" class="form-control" placeholder="Enter Price" oninput="add_number()"></td>
                         <td><input type="text" class="form-control" id="txtresult1" name="TextBox3"></td>
                       </tr>
 
@@ -129,7 +129,7 @@
                     </tbody>
 
                   </table>
-                  <input type="submit" class="button add_another btn btn-light" value="Add another line" />
+                  <input type="submit" class="button add_another btn btn-light" value="Add line" />
                   <div class="total">
                     <div class="input-group end mb-3">
                       <span class="input-group-text" id="com_date">Grand Total</span>
