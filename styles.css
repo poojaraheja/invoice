@@ -91,7 +91,10 @@ body {
   margin-top: -17px;
   margin-bottom: 10px;
 }
-
+.job-detail{
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
 .invoice .invoice-details .invoice-id {
   margin-top: 0;
   color: #0d6efd;
