@@ -82,7 +82,6 @@ body {
   padding-bottom: 20px;
 }
 
-<<<<<<< HEAD
 .date{
   float: right;
   display: flex;
@@ -92,8 +91,6 @@ body {
   width: 65%;
 }
 
-=======
->>>>>>> 38a4aab61ce9b60a90b1188a800902f6f47d1181
 /* ------------------------------------------ */
 .invoice .invoice-details .invoice-id {
   margin-top: 0;
